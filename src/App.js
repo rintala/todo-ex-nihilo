@@ -1,7 +1,6 @@
 import React from "react";
 import { useReducer } from "react";
 import "./App.css";
-import Todo from "./components/Todo";
 import TodoContext from "./components/Provider";
 import AddTodo from "./components/AddTodo";
 import Todos from "./components/Todos";
@@ -40,7 +39,7 @@ const initialState = [
 const todoReducer = (state, action) => {
   switch (action.type) {
     case "ADD_TODO":
-      console.log("REDUCER received add action.. ");
+      /*    console.log("REDUCER received add action.. "); */
       return state.concat({
         task: action.task,
         id: action.id,
