@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly Todo Component 1`] = `
+<div
+  className="todoCard"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <div
+    className="cardHeader"
+  >
+    <li
+      style={
+        Object {
+          "fontSize": "20px",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Task: 
+      Complete tutorial on React hooks and state
+    </li>
+    <button
+      className="btnRemove"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>
+  <ul>
+    <li>
+      ID: 
+      t0
+    </li>
+    <li>
+      Deadline: 
+      Tue Jul 09 2019 00:00:00 GMT+0200 (Central European Summer Time)
+    </li>
+    <li>
+      Completed: 
+      false
+    </li>
+  </ul>
+  <div
+    className="cardFooter"
+  >
+    <button
+      className="btnIsNotCompleted"
+      onClick={[Function]}
+    >
+      ✓
+    </button>
+  </div>
+</div>
+`;

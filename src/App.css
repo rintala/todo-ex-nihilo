@@ -1,0 +1,141 @@
+html,
+body,
+#app,
+#app > div {
+  height: 100%;
+  background-color: #353434f6;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.appLogo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 8vmin;
+  pointer-events: none;
+}
+
+.AppHeader {
+  background-color: #282c34;
+  min-height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffa3d5;
+}
+
+.appLink {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    scale: (1);
+    -webkit-transform: scale(1);
+  }
+  to {
+    scale: (1.2);
+    -webkit-transform: scale(1.2);
+  }
+}
+
+.todoCard {
+  background-color: #282c34;
+  border-style: solid;
+  border-color: #ffa3d5;
+  border-bottom-style: none;
+  padding: 20px;
+  text-align: left;
+  color: #ffa3d5;
+}
+
+.todoCardSelected {
+  background-color: #5e0175e7;
+  border-style: solid;
+  border-color: #ffa3d5;
+  border-bottom-style: none;
+  padding: 20px;
+  text-align: left;
+  color: #ffa3d5;
+}
+
+.todoCardSelectedLast,
+.todoCardLast {
+  border-bottom-style: solid;
+}
+
+#submitTodosWrapper {
+  background-color: gray;
+  padding: 20px;
+}
+
+.btnIsNotCompleted {
+  background-color: red;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btnIsCompleted {
+  background-color: green;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btnRemove {
+  background-color: rgb(70, 70, 70);
+  color: #ffa3d5;
+  cursor: pointer;
+}
+
+#addWrapper {
+  background-color: #282c34;
+}
+
+.textHeader {
+  padding: 14px;
+  font-size: 20px;
+  color: red;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cardFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#todosWrapper {
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-width: 55vh;
+  width: 70%;
+}
+
+#submitNewTodoButton {
+  background-color: rgb(70, 70, 70);
+  color: #ffa3d5;
+  cursor: pointer;
+}
+
+#submitNewTodoButton:hover {
+  /* background-color: #5e0175e7; */
+  cursor: pointer;
+}
